@@ -1,0 +1,20 @@
+
+{
+    "region" : "eu-central-1",
+    "configuration" : "Debug",
+    "framework"     : "net7.0",
+    "self-contained" : true,
+    "application"    : "Albums",
+    "environment"    : "Albums",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-0ca65c43472c28575\";\"aws:ec2:vpc,Subnets\"=\"subnet-0a03eaf5f4267b4f3\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.5.1 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "albums",
+    "instance-type"        : "r3.large",
+    "key-pair"             : "",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
