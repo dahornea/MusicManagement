@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4376fee6-c17c-4a10-9adc-2cd71c9cf3bb/resourceGroups/Albums20230327101855ResourceGroup/providers/Microsoft.Web/sites/MusicManagement130901",
+    "appService.deploySubpath": "bin\\Publish"
+}
